@@ -1,0 +1,6 @@
+[
+{
+  "directory": "e:\\OneDrive\\Project Wannier-Stark Ladder\\Calibration\\SLCalibration",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/std:c++20", "/Fobuild\\.objs\\SLCalibration\\windows\\x64\\release\\src\\Main.cpp.obj", "src\\Main.cpp"],
+  "file": "src\\Main.cpp"
+}]
