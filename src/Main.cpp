@@ -158,7 +158,7 @@ int main()
         }
         if (BandCenter / Delta_c >= max)
         {
-            cout << "Too small number !! Plz Remake database!" << endl;
+            cout << "Too big number !! Plz Remake database!" << endl;
             continue;
         }
 
