@@ -12,6 +12,8 @@ using namespace std;
 double BandEnergy(double Delta_c, double Omega, double k, int Flag)
 {
     return 0.5 * (Delta_c + sqrt(8.0 * (1.0 + cos(k * 2.0)) * pow(Omega, 2) + pow(Delta_c, 2)) * Flag);
+    // 1/2 * (\Delta_c + \pm (8 \Omega^2 + Delta_c^2 + 8 \Omega^2 * cos(2k) )^0.5 )
+    // Elliptic integral.
 }
 
 int GenerateDatabase()
